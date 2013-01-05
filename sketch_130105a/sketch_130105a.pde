@@ -1,8 +1,13 @@
+int px = 100;
+int py = 100;
+
 void setup(){
   size(480, 480);
   
 }
 
 void draw(){
-  ellipse(100, 200, 100, 100);
+  ellipse(px, py, 100, 100);
+  px++;
+  py++;
 }
